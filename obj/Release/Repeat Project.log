@@ -1,0 +1,50 @@
+﻿Build started 02/09/2014 23:19:53.
+     1>Project "C:\Users\Séamus\Documents\CGD\Y3\Repeat Project\Repeat Project\Repeat Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Release\Repeat Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\\Repeat Project.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\OgreSDK\OgreSDK_vc10_v1-7-4\Gui3D-master\sdk\\" /LIBPATH:"C:\Program Files (x86)\OgreSDK\OgreSDK_vc10_v1-7-4\lib\release" /LIBPATH:"C:\Program Files (x86)\OgreSDK\OgreSDK_vc10_v1-7-4\boost\lib" OgreMain.lib OIS.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Program Files (x86)\OgreSDK\OgreSDK_vc10_v1-7-4\Gui3D-master\sdk\Gui3DDebugStatic.lib" /MANIFEST /ManifestFile:"obj\Release\Repeat Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Séamus\Documents\CGD\Y3\Repeat Project\Repeat Project\bin\Release\Repeat Project.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\Repeat Project.lib" /MACHINE:X86 obj\Release\RepeatProject.res
+         obj\Release\AIPlayer.obj
+         obj\Release\Ball.obj
+         obj\Release\BaseApplication.obj
+         obj\Release\BaseObject.obj
+         obj\Release\Camera.obj
+         obj\Release\CollisionManager.obj
+         obj\Release\FModManager.obj
+         obj\Release\MovingObject.obj
+         obj\Release\MySimpleDemoPanelColors.obj
+         obj\Release\Player.obj
+         obj\Release\RepeatProject.obj
+     1>Gui3DDebugStatic.lib(Gui3DCaption.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DCaption.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>Gui3DDebugStatic.lib(Gorilla.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DPanelContainer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DPanel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DPanelElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DContainer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DButton.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DCheckboxSprite.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DCheckboxText.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DMultipleElementsSelector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DCombobox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DListbox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DInlineSelector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DScrollBar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DProgressBar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DTextZone.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DCheckbox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DVerticalSelector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>Gui3DDebugStatic.lib(Gui3DStringCursorEdit.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AIPlayer.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>bin\Release\\Repeat Project.exe : fatal error LNK1319: 20 mismatches detected
+     1>Done Building Project "C:\Users\Séamus\Documents\CGD\Y3\Repeat Project\Repeat Project\Repeat Project.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.30
